@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Sansita Swashed', cursive;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+@font-face {
+font-family: 'SEGA LOGO FONT';
+font-style: normal;
+font-weight: normal;
+src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+
+h1 {
+	font-family: 'SEGA LOGO FONT';
+	font-weight: 200;
+	color: white;
+}
+
